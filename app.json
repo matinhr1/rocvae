@@ -33,7 +33,7 @@
       },
       "SUDOERS": {
         "description": "ID of sudo users who have special access (separate multiple ids with space)",
-        "required": false
+        "required": True
       },
       "PREFIX": {
         "description": "Bot commad prefix or handler (separate multiple prefix with space)",
@@ -57,7 +57,7 @@
       },
       "ADMIN_ONLY": {
         "description": "Change it to 'True' if you want to make /play commands only for admins",
-        "value": "False",
+        "value": "True",
         "required": false
       },
       "SPOTIFY_CLIENT_ID": {
