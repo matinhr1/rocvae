@@ -33,7 +33,7 @@
       },
       "SUDOERS": {
         "description": "ID of sudo users who have special access (separate multiple ids with space)",
-        "required": True
+        "required": true
       },
       "PREFIX": {
         "description": "Bot commad prefix or handler (separate multiple prefix with space)",
